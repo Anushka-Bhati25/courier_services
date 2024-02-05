@@ -1,0 +1,79 @@
+.nav-item{
+    font-size: 22px;
+}
+.navbar{
+    background-color: rgb(90, 24, 151);
+    color: white;
+}
+.dropdown-menu{
+    font-size: 22px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+img{
+    border-radius: 10px;
+}
+
+
+.about{
+    font-size: 30px;
+}
+.buttonn{
+    background-color: black;
+    color: white;
+}
+
+#form{
+    margin: 5% 20%;
+   border-radius: 25px;
+    background: #ad8eb9;
+    padding: 20px;
+    box-shadow: 2px 22px 22px 1px #000000;
+}
+.maps{
+width: 100%;
+}
+.om-left{
+    margin: 10px;
+}
+.s-container{
+    background-image: url("man.jpg");
+    color: aliceblue;
+    height: 500px;
+    width: 100%;
+    margin: 0%;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    
+    background-size: cover; 
+            background-position: center; 
+          height:300px;
+}
+.s-container h1{
+    color: aliceblue;
+}
+h1{
+    color: rgb(90, 24, 151);
+ }
+ 
+ h3{
+    color:  rgb(90, 24, 151);
+ }
+ 
+ .track-inp{
+     width: 500px;
+    height: 40px;
+ }
+
+ .get-charges{
+    align-items: center;
+    width: 100%;
+ }
+@media screen and (max-width: 600px) {
+
+    .track-inp{
+        max-width: 50%;
+    }
+    
+}
