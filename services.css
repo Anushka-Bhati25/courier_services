@@ -1,0 +1,70 @@
+.s-container{
+    background-image: url("images/man.jpg");
+    height: 500px;
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    background-size: cover; 
+    background-position: center; 
+    height: 300px;
+    
+}
+
+.s-container h1{
+   color: white;
+}
+
+h3{
+   color:  rgb(90, 24, 151);
+}
+
+.track-inp{
+    width: 500px;
+    height: 40px;
+}
+
+.service-content {
+    margin: 100px;
+}
+
+.nav-item{
+    font-size: 22px;
+}
+.navbar{
+    background-color: rgb(90, 24, 151);
+    color: white;
+}
+.dropdown-menu{
+    font-size: 22px;
+    background-color: rgba(255, 255, 255);
+}
+
+img{
+    border-radius: 10px;
+}
+
+.Navigate-sec h1{
+    color: rgb(90, 24, 151);  
+}
+
+.feature-sec{
+    margin: 20px;
+
+}
+.feature-icon{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 0.75rem;
+    background-color: black;
+} 
+
+hr{
+    margin: 1rem 0;
+    color: inherit;
+    border: 0;
+    border-top: var(--bs-border-width) solid;
+    opacity: .25;
+}
